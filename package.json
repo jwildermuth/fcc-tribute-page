@@ -1,0 +1,22 @@
+{
+  "name": "fcc-tribute-page",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp - Responsive Web Design - Tribute Page project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwildermuth/fcc-tribute-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwildermuth/fcc-tribute-page/issues"
+  },
+  "homepage": "https://github.com/jwildermuth/fcc-tribute-page#readme",
+  "devDependencies": {
+    "http-server": "^13.0.1"
+  }
+}

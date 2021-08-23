@@ -6,11 +6,19 @@ body {
 }
 
 main {
-  margin: 15px auto 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 99%;
+  margin: 0 auto;
   color: #444;
   font-family: 'Poppins', sans-serif;
   font-size: 1vmax;
   text-align: center;
+}
+
+#wrapper {
+
 }
 
 header, footer {
@@ -32,25 +40,30 @@ header p {
 }
 
 figcaption {
-  font-size: smaller;
-  margin-top: 10px;
+/*  font-size: larger;*/
+  margin-top: 15px;
 }
 
 img, blockquote {
   box-shadow: 2px 6px 7px 3px black;
 }
 
-#image1-div #image2-div ul {
-  width: 95%;
+#image1-div, #image2-div {
+  margin: 50px auto;
 }
 
 #image1 {
-  max-width: 95%;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-rogan {
+  max-width: 75%;
 }
 
 ul {
   text-align: left;
-
 }
 
 li {
@@ -70,12 +83,8 @@ blockquote {
   border-radius: 10px;
 }
 
-#img-rogan {
-  max-width: 75%;
-}
-
 footer {
-  padding: 25px;
+  padding: 1em;
   font-size: larger;
 }
 
