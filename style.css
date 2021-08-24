@@ -16,7 +16,7 @@ main {
   align-items: center;
   color: #444;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5vmax;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -31,18 +31,17 @@ header, footer {
 }
 
 header h1 {
-  font-size: 200%;
   margin: 0;
 }
 
 header p {
-  font-size: 110%;
   margin: 0 auto;
 }
 
 figcaption {
   margin-top: 15px;
-  font-size: 1vmax;
+  font-size: 75%;
+  color: #7c7c7c;
 }
 
 img, blockquote {
@@ -85,16 +84,20 @@ blockquote {
   padding: 20px;
   background-color: #427AA1;
   color: #EBF2FA;
-  font-size: 200%;
-  line-height: 1.4;
+  font-size: 120%;
+  line-height: 1.2;
   border-radius: 10px;
 }
 
 footer {
   padding: 1vh 2vw;
-  font-size: larger;
 }
 
 footer a {
   color: #444;
 }
+
+/*@media screen and (max-width: 400px) {
+  body {
+    background-color: green;
+}*/
