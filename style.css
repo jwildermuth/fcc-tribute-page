@@ -48,7 +48,7 @@ img, blockquote {
   box-shadow: 2px 6px 7px 3px black;
 }
 
-#image1, #image2 {
+#img-div, #image2 {
   margin: 3vmax auto;
 }
 
@@ -57,7 +57,7 @@ img {
   margin: 0 auto;
 }
 
-#image1 img {
+#img-div img {
   width: 80%;
   max-width: 800px;
 }
