@@ -97,7 +97,12 @@ footer a {
   color: #444;
 }
 
-/*@media screen and (max-width: 400px) {
-  body {
-    background-color: green;
-}*/
+@media screen and (min-width: 1200px) {
+  main {
+    font-size: max(1vw, 16px);
+  }
+
+  blockquote {
+    margin-right: 20%;
+  }
+}
