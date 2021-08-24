@@ -8,23 +8,23 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  width: 99%;
+  margin: 0 auto;
   color: #444;
   font-family: 'Poppins', sans-serif;
   font-size: 1vmax;
+  text-align: center;
 }
 
-/*header, footer {
-  width: 100%;
-  margin: 5px auto 5px;
-  text-align: center;
+header, footer {
   font-family: 'Ubuntu', sans-serif;
   background: linear-gradient(to right, #00b09b, #96c93d);
   border-radius: 15px;
   color: ghostwhite;
-}*/
+}
 
-/*header h1 {
+header h1 {
   font-size: 200%;
   margin: 0;
   padding-top: 10px;
@@ -37,40 +37,35 @@ header p {
 }
 
 figcaption {
+/*  font-size: larger;*/
   margin-top: 15px;
 }
 
 img, blockquote {
   box-shadow: 2px 6px 7px 3px black;
-}*/
+}
+
+#image1-div, #image2-div {
+  margin: 50px auto;
+}
 
 #image1 {
-  width: 80%;
-  margin: auto;
-}
-
-#image1 img {
+  max-width: 90%;
   display: block;
-  width: 100%;
-  /*max-width: 500px;*/
-  height: auto; /* maintain aspect ratio*/
-  margin: auto; /*optional centering of image*/
+  margin: 0 auto;
 }
 
-#image2 {
-  width: 70%;
-  margin: auto;
+#img-rogan {
+  max-width: 75%;
 }
 
-#image2 img {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  height: auto; /* maintain aspect ratio*/
-  margin: auto; /*optional centering of image*/
+ul {
+  text-align: left;
 }
 
-/*li {
+li {
+  margin: 1em 0;
+  padding: 15px;
   max-width: 65ch;
 }
 
@@ -92,4 +87,4 @@ footer {
 
 footer a {
   color: #444;
-}*/
+}
